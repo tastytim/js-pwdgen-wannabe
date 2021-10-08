@@ -18,7 +18,8 @@ function alertDates() {
     alertDates();
   } else 
   {
-    let result = `${nome}${cognome}${colore}${21}`;
+    // let result = `${nome}${cognome}${colore}21`;
+    let result = nome + cognome + colore + "21";
     alert(result);
   }
 }
